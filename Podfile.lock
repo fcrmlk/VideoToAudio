@@ -1,0 +1,20 @@
+PODS:
+  - AppLovinSDK (11.5.2)
+  - IQKeyboardManagerSwift (6.5.10)
+
+DEPENDENCIES:
+  - AppLovinSDK
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - AppLovinSDK
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  AppLovinSDK: 49ce94e20c228e882a9f6d8fde90bdb4b50ab723
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+
+PODFILE CHECKSUM: bbcd2e3edc34de9d8a5e745cf45a71fc05ce56b0
+
+COCOAPODS: 1.11.2

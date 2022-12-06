@@ -3,29 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A587202934D3C900D23CFC /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5871E2934D3C900D23CFC /* OnBoardingViewController.swift */; };
+		18A587212934D3C900D23CFC /* OnBoardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A5871F2934D3C900D23CFC /* OnBoardingViewController.xib */; };
+		18A5872C2934D6AB00D23CFC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A587242934D6AB00D23CFC /* UIView.swift */; };
+		18A5872D2934D6AB00D23CFC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A587252934D6AB00D23CFC /* DataManager.swift */; };
+		18A5872E2934D6AB00D23CFC /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A587262934D6AB00D23CFC /* Global.swift */; };
+		18A5872F2934D6AB00D23CFC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A587272934D6AB00D23CFC /* BaseViewController.swift */; };
+		18A587302934D6AB00D23CFC /* HelperForCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A587282934D6AB00D23CFC /* HelperForCoreData.swift */; };
+		18A587312934D6AB00D23CFC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A587292934D6AB00D23CFC /* Utility.swift */; };
+		18A587322934D6AB00D23CFC /* ImagePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5872A2934D6AB00D23CFC /* ImagePickerVC.swift */; };
+		18A587332934D6AB00D23CFC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5872B2934D6AB00D23CFC /* Coordinator.swift */; };
 		18D8A03D292D6B7400C89F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8A03C292D6B7400C89F7F /* AppDelegate.swift */; };
-		18D8A03F292D6B7400C89F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8A03E292D6B7400C89F7F /* SceneDelegate.swift */; };
-		18D8A041292D6B7400C89F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8A040292D6B7400C89F7F /* ViewController.swift */; };
-		18D8A044292D6B7400C89F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A042292D6B7400C89F7F /* Main.storyboard */; };
 		18D8A047292D6B7400C89F7F /* VideoToAudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D8A045292D6B7400C89F7F /* VideoToAudio.xcdatamodeld */; };
 		18D8A049292D6B7500C89F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A048292D6B7500C89F7F /* Assets.xcassets */; };
 		18D8A04C292D6B7500C89F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A04A292D6B7500C89F7F /* LaunchScreen.storyboard */; };
+		3AE3859E993A54592A27D65A /* Pods_VideoToAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65A0A35943415525F5B9D7 /* Pods_VideoToAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A5871E2934D3C900D23CFC /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		18A5871F2934D3C900D23CFC /* OnBoardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController.xib; sourceTree = "<group>"; };
+		18A587242934D6AB00D23CFC /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		18A587252934D6AB00D23CFC /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		18A587262934D6AB00D23CFC /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		18A587272934D6AB00D23CFC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		18A587282934D6AB00D23CFC /* HelperForCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperForCoreData.swift; sourceTree = "<group>"; };
+		18A587292934D6AB00D23CFC /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		18A5872A2934D6AB00D23CFC /* ImagePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerVC.swift; sourceTree = "<group>"; };
+		18A5872B2934D6AB00D23CFC /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		18D8A039292D6B7400C89F7F /* VideoToAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoToAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D8A03C292D6B7400C89F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18D8A03E292D6B7400C89F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18D8A040292D6B7400C89F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18D8A043292D6B7400C89F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18D8A046292D6B7400C89F7F /* VideoToAudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoToAudio.xcdatamodel; sourceTree = "<group>"; };
 		18D8A048292D6B7500C89F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D8A04B292D6B7500C89F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D8A04D292D6B7500C89F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D8A053292D6B9600C89F7F /* VideoToAudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoToAudio.entitlements; sourceTree = "<group>"; };
+		6AB5F8FC8858063B56070A24 /* Pods-VideoToAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoToAudio.debug.xcconfig"; path = "Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		AF65A0A35943415525F5B9D7 /* Pods_VideoToAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoToAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E625579DFED1BD90935CCA64 /* Pods-VideoToAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoToAudio.release.xcconfig"; path = "Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE3859E993A54592A27D65A /* Pods_VideoToAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16653251B74A23C11B4E1D6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5F8FC8858063B56070A24 /* Pods-VideoToAudio.debug.xcconfig */,
+				E625579DFED1BD90935CCA64 /* Pods-VideoToAudio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18A587222934D67800D23CFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18A5871E2934D3C900D23CFC /* OnBoardingViewController.swift */,
+				18A5871F2934D3C900D23CFC /* OnBoardingViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18A587232934D6AB00D23CFC /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				18A587242934D6AB00D23CFC /* UIView.swift */,
+				18A587252934D6AB00D23CFC /* DataManager.swift */,
+				18A587262934D6AB00D23CFC /* Global.swift */,
+				18A587272934D6AB00D23CFC /* BaseViewController.swift */,
+				18A587282934D6AB00D23CFC /* HelperForCoreData.swift */,
+				18A587292934D6AB00D23CFC /* Utility.swift */,
+				18A5872A2934D6AB00D23CFC /* ImagePickerVC.swift */,
+				18A5872B2934D6AB00D23CFC /* Coordinator.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		18D8A030292D6B7300C89F7F = {
 			isa = PBXGroup;
 			children = (
 				18D8A03B292D6B7400C89F7F /* VideoToAudio */,
 				18D8A03A292D6B7400C89F7F /* Products */,
+				16653251B74A23C11B4E1D6A /* Pods */,
+				C9D563D9641FFB318AC8698C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +114,23 @@
 			isa = PBXGroup;
 			children = (
 				18D8A03C292D6B7400C89F7F /* AppDelegate.swift */,
-				18D8A03E292D6B7400C89F7F /* SceneDelegate.swift */,
-				18D8A040292D6B7400C89F7F /* ViewController.swift */,
-				18D8A042292D6B7400C89F7F /* Main.storyboard */,
+				18A587232934D6AB00D23CFC /* Extras */,
+				18A587222934D67800D23CFC /* Controllers */,
+				18D8A053292D6B9600C89F7F /* VideoToAudio.entitlements */,
 				18D8A048292D6B7500C89F7F /* Assets.xcassets */,
 				18D8A04A292D6B7500C89F7F /* LaunchScreen.storyboard */,
 				18D8A04D292D6B7500C89F7F /* Info.plist */,
 				18D8A045292D6B7400C89F7F /* VideoToAudio.xcdatamodeld */,
 			);
 			path = VideoToAudio;
+			sourceTree = "<group>";
+		};
+		C9D563D9641FFB318AC8698C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF65A0A35943415525F5B9D7 /* Pods_VideoToAudio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D8A050292D6B7500C89F7F /* Build configuration list for PBXNativeTarget "VideoToAudio" */;
 			buildPhases = (
+				CA7A7C3682748F7861669369 /* [CP] Check Pods Manifest.lock */,
 				18D8A035292D6B7300C89F7F /* Sources */,
 				18D8A036292D6B7300C89F7F /* Frameworks */,
 				18D8A037292D6B7300C89F7F /* Resources */,
+				9EED363584BB1AEF3E03ED4C /* [CP] Embed Pods Frameworks */,
+				8966B47A4B623C999539A630 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -106,7 +172,7 @@
 				};
 			};
 			buildConfigurationList = 18D8A034292D6B7300C89F7F /* Build configuration list for PBXProject "VideoToAudio" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -128,37 +194,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A587212934D3C900D23CFC /* OnBoardingViewController.xib in Resources */,
 				18D8A04C292D6B7500C89F7F /* LaunchScreen.storyboard in Resources */,
 				18D8A049292D6B7500C89F7F /* Assets.xcassets in Resources */,
-				18D8A044292D6B7400C89F7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8966B47A4B623C999539A630 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EED363584BB1AEF3E03ED4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoToAudio/Pods-VideoToAudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7A7C3682748F7861669369 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoToAudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D8A035292D6B7300C89F7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D8A041292D6B7400C89F7F /* ViewController.swift in Sources */,
+				18A587312934D6AB00D23CFC /* Utility.swift in Sources */,
+				18A5872C2934D6AB00D23CFC /* UIView.swift in Sources */,
+				18A587302934D6AB00D23CFC /* HelperForCoreData.swift in Sources */,
+				18A5872D2934D6AB00D23CFC /* DataManager.swift in Sources */,
 				18D8A047292D6B7400C89F7F /* VideoToAudio.xcdatamodeld in Sources */,
 				18D8A03D292D6B7400C89F7F /* AppDelegate.swift in Sources */,
-				18D8A03F292D6B7400C89F7F /* SceneDelegate.swift in Sources */,
+				18A5872F2934D6AB00D23CFC /* BaseViewController.swift in Sources */,
+				18A587332934D6AB00D23CFC /* Coordinator.swift in Sources */,
+				18A587322934D6AB00D23CFC /* ImagePickerVC.swift in Sources */,
+				18A587202934D3C900D23CFC /* OnBoardingViewController.swift in Sources */,
+				18A5872E2934D6AB00D23CFC /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18D8A042292D6B7400C89F7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18D8A043292D6B7400C89F7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18D8A04A292D6B7500C89F7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,19 +410,21 @@
 		};
 		18D8A051292D6B7500C89F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB5F8FC8858063B56070A24 /* Pods-VideoToAudio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoToAudio/VideoToAudio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U9K7P2S38S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoToAudio/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,19 +440,21 @@
 		};
 		18D8A052292D6B7500C89F7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E625579DFED1BD90935CCA64 /* Pods-VideoToAudio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoToAudio/VideoToAudio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U9K7P2S38S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoToAudio/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
